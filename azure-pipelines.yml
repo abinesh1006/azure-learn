@@ -10,7 +10,7 @@ pool:
   name: default
 
 steps:
-- script: echo Hello, world!
+- script: ls -ltrh
   displayName: 'Run a one-line script'
 
 - script: |
